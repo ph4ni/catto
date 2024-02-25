@@ -16,6 +16,7 @@
   </head>
 
   <body>
+    <script src="{{ "oneko.js" | absURL }}"></script>
     <!-- cache partial only in production -->
     {{ if hugo.IsProduction }}
       {{ partialCached "preloader.html" . }}
