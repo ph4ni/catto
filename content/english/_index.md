@@ -1,7 +1,7 @@
 ---
 # Banner
 banner:
-  title: "Your friendly neighborhood tech team"
+  title: "Error 404: Ordinary Services Not Found. Bringing Tech Awesomeness to Non-Profits! 🚀"
   content: "Facing problems using clunky software? Catto.in is "
   image: "/images/banner.png"
   button:
@@ -11,32 +11,33 @@ banner:
 
 # Features
 features:
-  - title: "What's Included in Hugoplate"
+  - title: "What we do"
     image: "/images/service-1.png"
-    content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
+    content: "We take care of all your tech needs right from websites to ERP systems so you can focus on making impact."
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Hugo and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "Volunteer management systems to engage your volunteers"
+      - "Website and e-mail hosting for your NGO"
+      - "Custom software development for your use cases"
+      - "Affordable self-hosted solutions for your tech needs"
+      - "Donor and beneficiary management systems"
+      - "Tech consulting to help you make the right decisions"
     button:
       enable: false
       label: "Get Started Now"
       link: "#"
 
-  - title: "Discover the Key Features Of Hugo"
+  - title: "Our Philosophy"
     image: "/images/service-2.png"
-    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+    content: "We believe that good and efficient software propels progress. Non-profits are not equipped with the best tech teams and they often make bad decision leading to wasted time and money."
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "All software we work with is Free and Open Source. You only pay for hosting. Not the software itself."
+      - "We keep you out of vendor-lockins and make sure that you own your data."
+      - "We help you gain access to non-profits discounts offered by tech companies so your costs stay low."
+      - "We are active contributors to various open source projects."
     button:
       enable: true
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/hugoplate"
+      label: "Chat with us"
+      link: "https://catto.in/contact"
 
   - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
     image: "/images/service-3.png"
