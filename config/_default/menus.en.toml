@@ -12,13 +12,13 @@ url = "about/"
 weight = 2
 
 [[main]]
-name = "Elements"
+name = "Services"
 url = "elements/"
 weight = 3
 
 [[main]]
 weight = 4
-name = "Pages"
+name = "Other"
 hasChildren = true
 
 [[main]]
@@ -54,7 +54,7 @@ url = "about/"
 weight = 1
 
 [[footer]]
-name = "Elements"
+name = "Services"
 url = "elements/"
 weight = 2
 
