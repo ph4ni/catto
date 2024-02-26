@@ -11,10 +11,10 @@ name = "About"
 url = "about/"
 weight = 2
 
-[[main]]
-name = "Services"
-url = "elements/"
-weight = 3
+#[[main]]
+#name = "Services"
+#url = "elements/"
+#weight = 3
 
 [[main]]
 weight = 4
@@ -22,29 +22,20 @@ name = "Other"
 hasChildren = true
 
 [[main]]
-parent = "Pages"
+parent = "Other"
 name = "Blog"
 url = "blog/"
 
 [[main]]
-parent = "Pages"
+parent = "Other"
 name = "Contact"
 url = "contact/"
 
 [[main]]
-parent = "Pages"
-name = "Authors"
-url = "authors/"
-
-[[main]]
-parent = "Pages"
+parent = "Other"
 name = "Categories"
 url = "categories/"
 
-[[main]]
-parent = "Pages"
-name = "404 Page"
-url = "404/"
 
 
 # footer menu
