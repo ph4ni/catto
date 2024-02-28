@@ -11,10 +11,10 @@ name = "About"
 url = "about/"
 weight = 2
 
-#[[main]]
-#name = "Services"
-#url = "elements/"
-#weight = 3
+[[main]]
+name = "Services"
+url = "services/"
+weight = 3
 
 [[main]]
 weight = 4
@@ -46,10 +46,15 @@ weight = 1
 
 [[footer]]
 name = "Services"
-url = "elements/"
+url = "services/"
 weight = 2
+
+[[footer]]
+name = "Contact"
+url = "contact/"
+weight = 3
 
 [[footer]]
 name = "Privacy Policy"
 url = "privacy-policy/"
-weight = 3
+weight = 4

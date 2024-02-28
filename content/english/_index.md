@@ -1,8 +1,8 @@
 ---
 # Banner
 banner:
-  title: "Error 404: Ordinary Services Not Found. Bringing Tech Awesomeness to Non-Profits! 🚀"
-  content: "Facing problems using clunky software? Catto.in is "
+  title: "Bringing Tech Awesomeness to Non-Profits! ✨"
+  content: "Facing problems using clunky software? Catto.in is here to help you make the right decisions."
   image: "/images/banner.png"
   button:
     enable: true

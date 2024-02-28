@@ -1,0 +1,28 @@
+<style>
+    /* Add your CSS styles for service tiles */
+    .services {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .service-tile {
+        border: 1px solid #ddd;
+        padding: 1.5em;
+        margin: 1em;
+        width: 30%;
+        box-sizing: border-box; /* Ensure padding is included in width */
+    }
+    
+    .service-tile h2 {
+        color: #333;
+    }
+    
+    .service-tile p {
+        color: #666;
+    }
+    </style>
+    
+    <div class="services">
+        {{ .Inner }}
+    </div>
