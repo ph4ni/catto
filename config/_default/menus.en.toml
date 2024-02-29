@@ -12,6 +12,11 @@ url = "about/"
 weight = 2
 
 [[main]]
+name = "Products"
+url = "products/"
+weight = 3
+
+[[main]]
 name = "Services"
 url = "services/"
 weight = 3
@@ -45,16 +50,17 @@ url = "about/"
 weight = 1
 
 [[footer]]
+name = "Products"
+url = "products/"
+weight = 2
+
+[[footer]]
 name = "Services"
 url = "services/"
-weight = 2
+weight = 3
 
 [[footer]]
 name = "Contact"
 url = "contact/"
-weight = 3
-
-[[footer]]
-name = "Privacy Policy"
-url = "privacy-policy/"
 weight = 4
+
