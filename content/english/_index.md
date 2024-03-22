@@ -7,7 +7,7 @@ banner:
   button:
     enable: true
     label: "See how we can help you"
-    link: "https://catto.in/services"
+    link: "https://www.catto.in/services"
 
 # Features
 features:
@@ -37,5 +37,5 @@ features:
     button:
       enable: true
       label: "Chat with us"
-      link: "https://catto.in/contact"
+      link: "https://www.catto.in/contact"
 ---
