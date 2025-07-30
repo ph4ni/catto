@@ -1,5 +1,5 @@
 ---
-enable: true
+enable: false
 title: "What People are Saying about Us"
 description: "Don't just take our word for it - hear from some of the people we've worked with."
 
