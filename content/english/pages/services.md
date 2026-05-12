@@ -21,8 +21,14 @@ draft: false
         <h2>Consulting</h2>
         <p>Guidance to help you make the right decisions</p>
     </div>
+    
     <div class="service-tile">
-        <h2>Projects</h2>
-        <p>We work together with you on your projects to make them better with tech.</p>
+        <h2>App Development</h2>
+        <p>Custom mobile and desktop applications built to improve your business and user experience.</p>
+    </div>
+    
+    <div class="service-tile">
+        <h2>Web Hosting</h2>
+        <p>Reliable and secure hosting solutions to keep your website fast, online, and accessible.</p>
     </div>
 {{< /service-tiles >}}
