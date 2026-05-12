@@ -1,18 +1,21 @@
 <footer class="bg-theme-light dark:bg-darkmode-theme-light">
   <div class="container">
-    <div class="row items-center py-10">
-      <div class="lg:col-3 mb-8 text-center lg:mb-0 lg:text-left">
-        <!-- navbar brand/logo -->
+    <div class="items-center py-10 row">
+
+      <!-- Logo -->
+      <div class="mb-8 text-center lg:col-3 lg:mb-0 lg:text-left">
         <a
-          class="navbar-brand inline-block"
+          class="inline-block navbar-brand"
           href="{{ site.Home.RelPermalink }}">
           {{ partial "logo" }}
         </a>
       </div>
-      <div class="lg:col-6 mb-8 text-center lg:mb-0">
+
+      <!-- Menu + Quote -->
+      <div class="mb-8 text-center lg:col-6 lg:mb-0">
         <ul>
           {{ range site.Menus.footer }}
-            <li class="m-3 inline-block">
+            <li class="inline-block m-3">
               <a
                 {{ if findRE `^http` .URL }}
                   target="_blank" rel="noopener"
@@ -23,14 +26,22 @@
                   {{ end }}{{ .URL }}
                 {{ else }}
                   {{ .URL | relLangURL }}
-                {{ end }}"
-                >{{ .Name }}</a
-              >
+                {{ end }}">
+                {{ .Name }}
+              </a>
             </li>
           {{ end }}
         </ul>
+
+        <!-- Quote -->
+        <p class="mt-3 text-light dark:text-darkmode-light">
+          You miss 100% of the shots you don't take - Michael Scott
+          {{ site.Params.copyright | markdownify }}
+        </p>
       </div>
-      <div class="lg:col-3 mb-8 text-center lg:mb-0 lg:mt-0 lg:text-right">
+
+      <!-- Social Icons -->
+      <div class="mb-8 text-center lg:col-3 lg:mb-0 lg:mt-0 lg:text-right">
         <ul class="social-icons">
           {{ range site.Data.social.main }}
             <li>
@@ -45,13 +56,10 @@
           {{ end }}
         </ul>
       </div>
+
     </div>
   </div>
-  <div class="border-border dark:border-darkmode-border border-t py-7">
-    <div class="text-light dark:text-darkmode-light container text-center">
-      <p>
-        You miss 100% of the shots you don't take - Michael Scott {{ site.Params.copyright | markdownify }}
-      </p>
-    </div>
-  </div>
+
+  <!-- Border only -->
+  <!-- <div class="py-2 border-t border-border dark:border-darkmode-border"></div> -->
 </footer>
