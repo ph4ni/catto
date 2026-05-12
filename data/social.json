@@ -7,9 +7,9 @@
     },
     {
       "name": "codeberg",
-      "icon": "fab fa-forgejo",
+      "icon": "fa-solid fa-code-branch",
       "link": "https://codeberg.org/Catto"
-    },
+    },   
     {
       "name": "linkedin",
       "icon": "fab fa-linkedin",
